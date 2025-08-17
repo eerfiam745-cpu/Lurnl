@@ -2,7 +2,7 @@ import os
 import telebot
 from stripe import stripe_payment  # Ensure this module exists locally
 
-API_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')  # Read token from environment
+API_TOKEN = os.getenv('8015402761:AAE7otsbjkfNJd6g07eFqFiWPHh_NvvkSBk')  # Read token from environment
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['stripe'])
