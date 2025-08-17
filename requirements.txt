@@ -1,0 +1,3 @@
+pyTelegramBotAPI
+stripe
+python-dotenv  # Optional for local testing
